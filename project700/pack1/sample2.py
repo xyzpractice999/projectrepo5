@@ -5,5 +5,4 @@ import time
 path="C:/Users/suman/Downloads/chromedriver-win64_L/chromedriver-win64/chromedriver.exe"
 obj=Service(path)
 driver=webdriver.Chrome(service=obj)
-time.sleep(12)
-
+time.sleep(10)
